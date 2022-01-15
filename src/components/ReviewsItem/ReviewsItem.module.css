@@ -1,0 +1,17 @@
+.ReviewsItem {
+  list-style: initial;
+  margin-bottom: 40px;
+}
+
+.ReviewsItem__author {
+  font-size: 24px;
+  color: #555;
+  font-weight: 700;
+}
+
+.ReviewsItem__text {
+  color: #545454;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 0;
+}

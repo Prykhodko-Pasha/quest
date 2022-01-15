@@ -1,0 +1,29 @@
+.CastItem {
+  margin-bottom: 40px;
+  display: flex;
+  float: left;
+  width: 50%;
+}
+
+.CastItem__info {
+  padding: 10px;
+}
+
+.CastItem__img {
+  border-radius: 5px;
+  margin-right: 20px;
+  height: 300px;
+  box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+}
+.CastItem__name {
+  font-size: 24px;
+  color: #555;
+  font-weight: 700;
+}
+
+.CastItem__character {
+  color: #545454;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 0;
+}

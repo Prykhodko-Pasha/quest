@@ -1,0 +1,45 @@
+.NotFoundPage {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: wheat;
+  height: 80vh;
+  margin: 20px 0;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.4s;
+  box-shadow: 0px 0px 120px -25px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+.goToList,
+.goToMatrix {
+  position: absolute;
+  top: 70%;
+}
+
+.goToList {
+  right: 30%;
+}
+.goToMatrix {
+  color: wheat;
+  text-decoration: none;
+  left: 30%;
+  transition: text-shadow 0.4s;
+}
+.goToMatrix:hover,
+.goToMatrix:focus {
+  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+}
+
+.blur_back {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  right: 0;
+  background-size: cover;
+  border-radius: 11px;
+  width: 100%;
+  background-repeat: no-repeat;
+}

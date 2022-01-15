@@ -1,0 +1,20 @@
+.GoBackButton {
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.3);
+  transition: color 0.3s;
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  margin: 0 0 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.GoBackButton:hover,
+.GoBackButton:focus {
+  transition: color 0.3s;
+  color: rgba(0, 0, 0, 0.7);
+}

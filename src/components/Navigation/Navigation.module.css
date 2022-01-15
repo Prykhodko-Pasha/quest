@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+}
+
+.nav__link,
+.nav__link_active {
+  margin: 15px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: text-shadow 0.4s;
+  color: #212121;
+}
+
+.nav__link:hover,
+.nav__link:focus,
+.nav__link_active:hover,
+.nav__link_active:focus {
+  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+}
+
+.nav__link_active {
+  color: #596fe9;
+}
